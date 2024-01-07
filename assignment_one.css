@@ -1,0 +1,114 @@
+
+body{
+    /* font-family: 'Merriweather', serif;
+font-family: 'Open Sans', sans-serif; */
+font-family: 'Inter Tight', sans-serif;
+font-family: 'Merriweather', serif;
+font-family: 'Open Sans', sans-serif;
+
+}
+section{
+margin-left: 100px;
+margin-right: 140px;
+
+}
+.new-year-title{
+    color: #FFF;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 400; 
+    padding-top: 177px;
+}
+.new-year-heading{
+    color: #FFF;
+
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 95px;/* 131.944% */
+    /* padding-top: 233px; */
+}
+.new-year{
+    margin-top: 50px;
+    background-image: url('./images/Banner\ Image.png');
+    background-repeat: no-repeat;
+    width: 1320px;
+height: 600px;
+border-radius: 16px;
+margin-bottom: 120px;
+}
+.sell{ 
+color: #F00;
+text-align: center;
+font-size: 88px;
+font-weight: 700;
+margin-bottom:120px ;
+}
+.sell-description{
+    color: #F00;
+text-align: center;
+font-size: 24px;
+font-weight: 500;
+margin-bottom: 16px;
+}
+#another-description{
+    color: #070211;
+text-align: center;
+font-size: 48px;
+font-weight: 700;
+margin-bottom: 40px;
+}
+.new-year-photo{
+    width: 802.9px;
+height: 500px;
+}
+.party-heading{
+   padding-top: 50px;
+   padding-left: 130px;
+   padding-right: 200px;
+   color: #FFF;
+   font-size: 50px;
+   font-weight: 900;
+   line-height: 80px;
+   letter-spacing: 7.04px;
+  
+}
+.primary-description{
+    color: rgba(255, 255, 255, 0.80);
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+padding-left: 130px; 
+}
+.party{
+    display:flex;
+    background-image: url('./images/Vectorrr.png');
+
+    background-repeat: no-repeat;
+    justify-content: space-between;
+    width: 1320px;
+    height: 600px;
+    border-radius: 16px;
+    margin-bottom: 120px;
+    /* width: 1320px;
+height: 600px; */
+}
+
+.party-img{
+ padding-top: 70px;
+ padding-right: 140px;
+width: 319.83px;
+height: 464.662px;
+}
+.button{
+    margin-top: 50px;
+    /* color: #FFF; */
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-left: 130px;
+    background-color: none;
+}
