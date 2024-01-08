@@ -226,6 +226,9 @@ border: 15px solid #F00;
     border-radius: 16px;
 
 }
+.colum:hover{
+   background-color: black;
+}
 
 .colum2 {
     flex: 33.33%;
@@ -234,7 +237,9 @@ border: 15px solid #F00;
     border-radius: 16px;
 
 }
-
+.colum2:hover{
+    background-color: aquamarine;
+}
 
 /* subscribe section */
 .subscribe {
