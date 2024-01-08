@@ -1,9 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:wght@600&family=Merriweather:wght@400;700;900&family=Open+Sans:ital,wght@0,700;0,800;1,700&display=swap');
 body {
     /* font-family: 'Merriweather', serif;
 font-family: 'Open Sans', sans-serif; */
-    font-family: 'Inter Tight', sans-serif;
-    font-family: 'Merriweather', serif;
-    font-family: 'Open Sans', sans-serif;
+font-family: 'Inter Tight', sans-serif;
+font-family: 'Merriweather', serif;
+font-family: 'Open Sans', sans-serif;
 
 }
 
@@ -129,6 +130,30 @@ section>ul>li {
     list-style: none;
 }
 
+.programe{
+
+display: flex;
+justify-content: space-between;
+}
+#p-des{
+    width: 500px;
+}
+#programe-id{
+    margin-left: 120px;
+}
+.circle{
+    margin-left: 0px;
+    padding-left: 0;
+}
+.circle-img{
+  
+width: 260px;
+height: 260px;
+padding: 30px;
+border-radius: 463px; 
+border: 15px solid #F00;
+}
+
 .address {
     width: 1320px;
     height: 482px;
@@ -144,7 +169,7 @@ section>ul>li {
 }
 
 .address>button {
-    align-items: center;
+  margin-left: 600px;
     display: inline-flex;
     padding: 16px 32px;
     justify-content: center;
@@ -207,6 +232,7 @@ section>ul>li {
 
 }
 
+
 /* subscribe section */
 .subscribe {
     width: 1320px;
@@ -217,10 +243,10 @@ section>ul>li {
 
 .email-pic {
     padding-left: 45%;
-    padding-top: 80px;
+    margin-top: 80px;
     width: 150px;
     height: 150px;
-    padding-bottom: 40px;
+    margin-bottom: 40px;
 }
 
 .sub-content{
@@ -237,6 +263,75 @@ text-transform: capitalize;
     padding-left: 180px;
      text-align: center;
 }
-.input-email{
+
+.email{
+    width: 428px;
+    height: 50px;
+    border-radius: 50px 0px 0px 50px;
+background: #FFF;
+margin-left: 300px;
+
+}
+.sub-button{
+    width: 210px;
+height: 55px;
+border-radius: 0px 50px 50px 0px;
+background: #F00;
+
+
+}
+input,button{
+    float: left;
     align-items: center;
+    margin-bottom: 80px;
+}
+
+/* footer style  */
+footer{
+    width: 100%;
+    background: #070211;
+width: 1600px;
+height: 609px;
+}
+.footer{
+    padding: 100px 50px 50px 100px;
+    display: flex;
+    justify-content: space-between;
+   
+}
+.footer-heading{
+    padding-right: 100px;
+}
+.footer-description{
+    display: inline;
+    color: #FFF;
+font-size: 24px;
+font-weight: 500;
+line-height: 40px; 
+padding-right: 100px;
+}
+.icon{
+    height: 24px;
+    width: 24px;
+    padding-right: 5px;
+}
+hr{ color: #ffffff38;
+    width: 1350px;
+    background: rgba(255, 255, 255, 0.15);
+}
+.social-media{
+    display: flex;
+    padding-left: 40% ;
+    margin-bottom: 50px;
+}
+.social-pic{
+    padding-top: 50px;
+    padding-right: 13px;
+    width: 64px;
+height: 64px;
+}
+.footer2{
+    padding: 120px 80px 20px 100px;
+    display: flex;
+    justify-content: space-between;
 }
